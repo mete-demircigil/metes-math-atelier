@@ -19,19 +19,18 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center p-6 md:p-10">
       <div className="mb-8">
-        <Image src="/v5.png" width={200} height={200} alt="Mete's Math Atelier logo" priority />
+        <Image src="/v5.png" width={400} height={400} alt="Mete's Math Atelier logo" priority />
       </div>
 
       <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">Mete&apos;s Math Atelier</h1>
       <p className="max-w-3xl text-center text-lg mb-10">
         I’m Mete, a postdoctoral researcher in mathematics at the University of Arizona. I help highly motivated students excel in
-        mathematical olympiads, the Putnam exam, and university math—building rigorous foundations in calculus, analysis, linear algebra,
-        differential equations, probability, and statistics.
+        mathematical olympiads, the Putnam exam, and university math—building rigorous foundations in analysis, linear algebra, abstract algebra, probability, and statistics.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl w-full">
         <Card title="Tutoring" href="#contact" cta="Book a Session">
-          Personalized one-on-one coaching for Olympiad training (AMC/AIME/USAMO/IMO), Putnam prep, and core theoretical courses.
+          Personalized one-on-one coaching for Olympiad training, Putnam prep, and core theoretical courses.
           Sessions available online; custom study plans and problem sets included.
         </Card>
 
@@ -44,7 +43,7 @@ export default function Home() {
         </Card>
       </div>
 
-      <section id="resources" className="mt-16 max-w-3xl w-full">
+   /*   <section id="resources" className="mt-16 max-w-3xl w-full">
         <h2 className="text-3xl font-bold mb-4">Suggested Books</h2>
         <ul className="list-disc pl-6 space-y-2">
           <li><strong>Olympiads:</strong> Engel — <em>Problem-Solving Strategies</em>; Titu Andreescu — <em>103 Problems</em> series.</li>
@@ -53,11 +52,11 @@ export default function Home() {
             Abbott — <em>Understanding Analysis</em>; Durrett — <em>Probability: Theory and Examples</em>.</li>
         </ul>
       </section>
-
+*/
       <section id="contact" className="mt-16 max-w-2xl w-full text-center">
         <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
         <p className="mb-6">Interested in tutoring or collaboration? Email me and tell me about your goals and timeline.</p>
-        <a className="inline-block text-center rounded-2xl px-6 py-3 border border-navy hover:bg-navy hover:text-cream transition text-lg" href="mailto:your-email@example.com">
+        <a className="inline-block text-center rounded-2xl px-6 py-3 border border-navy hover:bg-navy hover:text-cream transition text-lg" href="mailto:XXX@gmail.com">
           Email Me
         </a>
         <p className="text-sm mt-3 opacity-80">Based in Tucson, AZ • Remote worldwide</p>
