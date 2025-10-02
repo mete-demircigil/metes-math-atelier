@@ -17,6 +17,22 @@ function Card({ title, children, href, cta }: { title: string; children: React.R
 
 export default function Home() {
   return (
+    <main className="min-h-screen flex items-center justify-center text-center">
+ <div className="mb-8">
+        <Image src="/v5.png" width={400} height={400} alt="Mete's Math Atelier logo" priority />
+      </div>
+
+      <h1 className="text-4xl font-bold">Site temporarily offline</h1>
+  
+      <p className="mt-4">Check back soon!</p>
+    </main>
+  );
+}
+
+
+/*
+export default function Home() {
+  return (
     <main className="min-h-screen flex flex-col items-center p-6 md:p-10">
       <div className="mb-8">
         <Image src="/v5.png" width={400} height={400} alt="Mete's Math Atelier logo" priority />
@@ -43,7 +59,7 @@ export default function Home() {
         </Card>
       </div>
 
-   /*   <section id="resources" className="mt-16 max-w-3xl w-full">
+      <section id="resources" className="mt-16 max-w-3xl w-full">
         <h2 className="text-3xl font-bold mb-4">Suggested Books</h2>
         <ul className="list-disc pl-6 space-y-2">
           <li><strong>Olympiads:</strong> Engel — <em>Problem-Solving Strategies</em>; Titu Andreescu — <em>103 Problems</em> series.</li>
@@ -52,7 +68,7 @@ export default function Home() {
             Abbott — <em>Understanding Analysis</em>; Durrett — <em>Probability: Theory and Examples</em>.</li>
         </ul>
       </section>
-*/
+
       <section id="contact" className="mt-16 max-w-2xl w-full text-center">
         <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
         <p className="mb-6">Interested in tutoring or collaboration? Email me and tell me about your goals and timeline.</p>
@@ -67,4 +83,4 @@ export default function Home() {
       </footer>
     </main>
   );
-}
+} */
